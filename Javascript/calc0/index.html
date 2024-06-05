@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+<head>
+    <script>
+        let i = 1,c = 0,suma = 0,promedio = 0;
+        do{
+            i = parseInt(prompt("Ingrese un numero"));
+            if(i % 10 == 5){
+                document.write(i + "<br>");
+                suma += i;
+                c++;
+                promedio = suma / c;
+            }
+        }while(i != 0)
+        document.write("El promedio de los numeros terminados en 5 es:" + promedio);
+    </script>
+    <title>Algoritmo de tarea</title>
+
+</head>
+<body>
+    <h1>Leer números hasta que digite 0 y calcular el promedio de los números terminados en 5</h1>
+</body>
+</html>

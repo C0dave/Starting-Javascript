@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+    <meta charset="UTF-8">
+
+<head>
+
+    <script>
+        let i,n,c = 0;
+        n = parseInt(prompt("Ingresa un numero"))
+        for(i = 2; i < n; i++){
+            if(n % i == 0){
+                c =  1;
+                break;
+            }
+        }
+        if(c == 1){
+            alert("El numero no es primo");
+        }
+        else{
+            alert("El numero es primo");
+        }
+    </script>
+    <title>Document</title>
+
+</head>
+<body>
+
+    <h1>Ingresar un número y determinar si es primo en javascript</h1>
+    
+</body>
+</html>

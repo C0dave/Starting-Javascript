@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+<head>
+    <script>
+        let i = 1,n,cali,suma = 0,promedio = 0;
+        n = parseInt(prompt("Ingrese el numero de alumnos"))
+        while(i <= n){
+            cali = parseFloat(prompt("Ingresa la calificacion: " + i));
+            suma += cali;
+            promedio = suma / i
+            i++;
+        }
+        if(n >= 1){
+            alert("El promedio de las calificaciones es: " + promedio);
+        }
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Obtener el promedio de calificaciones de un grupo de n alumnos en js</h1>
+</body>
+</html>
